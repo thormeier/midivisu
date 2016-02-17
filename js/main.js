@@ -1,9 +1,10 @@
 var app, file = 'assets/tab_1_1.mid';
 
 window.onload = function () {
-    app = new VisuApp(20, 3, 'canvas');
+    app = new VisuApp(60, 3, 'canvas');
 
-    app.run();
+    // app.run();
+    app.fancy();
 
     var colors = [[255, 0, 0],
         [255, 64, 0],
